@@ -1,4 +1,4 @@
-package guru.springframework.spring6restmvcapi.model;
+package com.ihomziak.springframework.spring6restmvcapi.model;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
@@ -9,9 +9,6 @@ import lombok.NoArgsConstructor;
 import java.sql.Timestamp;
 import java.util.UUID;
 
-/**
- * Created by jt, Spring Framework Guru.
- */
 @Data
 @Builder
 @AllArgsConstructor

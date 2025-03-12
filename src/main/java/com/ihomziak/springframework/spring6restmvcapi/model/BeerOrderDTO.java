@@ -1,4 +1,4 @@
-package guru.springframework.spring6restmvcapi.model;
+package com.ihomziak.springframework.spring6restmvcapi.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,9 +10,6 @@ import java.sql.Timestamp;
 import java.util.Set;
 import java.util.UUID;
 
-/**
- * Created by jt, Spring Framework Guru.
- */
 @Builder
 @Data
 @AllArgsConstructor

@@ -1,4 +1,4 @@
-package guru.springframework.spring6restmvcapi.model;
+package com.ihomziak.springframework.spring6restmvcapi.model;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -11,9 +11,6 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-/**
- * Created by jt, Spring Framework Guru.
- */
 @Builder
 @Data
 @AllArgsConstructor
